@@ -7,7 +7,7 @@
 
     .container img {
         width: 85%;
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
 
     .container .description {
@@ -15,12 +15,15 @@
         align-items: center;
     }
 
-    .container .description h1, .container .description h3{
-        margin: 30px 10px;
+    .container .description h1, .container .description p{
+        margin: 3rem 1rem;
+    }
+    .container .description p{
+        padding: 0 26rem;
     }
     .container .description .register{
-        width: 300px;
-        margin-bottom: 20px;
+        width: 30rem;
+        margin-bottom: 2rem;
     }
     .footer{
         justify-content: center;

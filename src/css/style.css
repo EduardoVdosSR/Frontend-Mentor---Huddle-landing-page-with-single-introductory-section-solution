@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     background: var(--Violet) url(../images/bg-desktop.svg) no-repeat center center;
     width: 100%;
@@ -8,42 +12,45 @@ body {
 /* font-family: "Open Sans", sans-serif; */
 
 .header {
-    margin: 60px;
+    margin: 6rem;
 }
 
 .container {
     display: flex;
-    margin: 40px 60px;
+    margin: 4rem 6rem;
 }
 
 .container img {
-    margin-right: 60px;
+    margin-right: 6rem;
 }
 
 .description {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
 .container h1 {
     font-family: "Open sans", sans-serif;
     color: #fff;
+    font-size: 3.2rem;
+    text-transform: capitalize;
 }
 
-.container h3 {
+.container p {
     font-family: "Poppins", sans-serif;
     color: #fff;
-    margin-top: 30px;
+    font-size: 1.8rem;
+    margin-top: 3rem;
 }
 
 .container .register {
     background-color: #fff;
-    border-radius: 40px;
-    margin-top: 30px;
-    padding: 20px;
+    border-radius: 4rem;
+    margin-top: 3rem;
+    padding: 2rem;
     text-align: center;
-    width: 250px;
+    width: 25rem;
     font-family: "Open Sans", sans-serif;
     transition: 0.3s
 }
@@ -51,6 +58,7 @@ body {
 .container .register:hover {
     background-color: var(--Soft-Magenta);
     color: #fff;
+    cursor: pointer;
 
 }
 
@@ -58,22 +66,28 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 65px 30px;
+    padding: 0 6rem 3rem;
 }
 
-.footer img {
-    width: 45px;
-    height: 45px;
-    margin-left: 20px;
-    padding: 5px;
-    border: 2px solid white;
-    border-radius: 40px;
+.footer .plataformas a {
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.footer .plataformas a i {
+    width: 4rem;
+    height: 4rem;
+    border: 0.2rem solid white;
+    border-radius: 50%;
     transition: 0.3s;
+    font-size: 2rem;
+    color: white;
+    padding: 0.5rem;
+    padding-top: 8px;
 }
 
-.footer img:hover {
-    cursor: pointer;
-    fill: var(--Soft-Magenta);
-    border: var(--Soft-Magenta) 2px solid;
-}
+.footer .plataformas a i:hover {
 
+    color: var(--Soft-Magenta);
+    border: var(--Soft-Magenta) 0.2rem solid;
+}
